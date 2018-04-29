@@ -1,0 +1,42 @@
+@import 'Grid/Grid.scss';
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?sp2fvq');
+  src:  url('fonts/icomoon.eot?sp2fvq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sp2fvq') format('truetype'),
+    url('fonts/icomoon.woff?sp2fvq') format('woff'),
+    url('fonts/icomoon.svg?sp2fvq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon{
+	&-document:before {
+  		content: "\e900";
+		margin-right: 5px;
+	}
+	&-arrow:before {
+  		content: "\e901";
+	}
+	&-spinner:before {
+  		content: "\e902";
+	}
+	&-linkedin:before {
+  		content: "\e903";
+	}
+}

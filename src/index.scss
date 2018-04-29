@@ -1,0 +1,28 @@
+@import 'Shared';
+@import 'App';
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+// Box sizing partial styles:
+// Apply a natural box layout model to all elements
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: $greyBody;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+	text-align: center;
+	margin-top: 40px;
+}
